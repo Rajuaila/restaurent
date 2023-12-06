@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>Online Food Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #110d0d;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .order-now-btn {
+            background-color: #ff4500;
+            color: #fff;
+            padding: 1em 2em;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+            display: inline-block;
+        }
+
+        .menu-item {
+            margin: 1em;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+            width: 200px;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .menu-item-info {
+            padding: 1em;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+        }
+
+        .menu-item p {
+            margin: 0;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Online Food Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <a href="#menu" class="order-now-btn">Order Now</a>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <div class="menu-item">
+            <img src="hyderbadi-biriyani-1.jpg" alt="Food Item 1">
+            <div class="menu-item-info">
+                <h3>chicken Biryani</h3>
+                <p>199 </p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="th.jpeg" alt="Food Item 2">
+            <div class="menu-item-info">
+                <h3>Mutton Biryani</h3>
+                <p>299</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>1234567890</p>
+    </section>
+</body>
+</html>
+
+
